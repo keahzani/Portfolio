@@ -1,0 +1,275 @@
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #222;
+  color: #fff;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00d9ff;
+}
+
+/* Hero / About Section */
+.hero {
+  background: #e9f7ff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 0.5rem auto;
+  font-size: 1.1rem;
+}
+
+.section {
+  padding: 4rem 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #111;
+}
+
+.education-entry {
+  margin-bottom: 2rem;
+}
+
+.education-entry h3 {
+  font-size: 1.3rem;
+  color: #0077b6;
+}
+
+.education-entry p {
+  font-size: 1rem;
+  margin: 0.3rem 0;
+}
+
+.cv-download {
+  margin-top: 2rem;
+}
+
+.cv-download a {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #00b4d8;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.cv-download a:hover {
+  background-color: #0077b6;
+}
+
+.interests {
+  background-color: #e3f2fd;
+}
+
+.interest-item {
+  margin-bottom: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.interest-item h3 {
+  font-size: 1.4rem;
+  color: #0288d1;
+  margin-bottom: 0.5rem;
+}
+
+.interest-item p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.projects {
+  background-color: #ffffff;
+}
+
+.project-card {
+  background-color: #f0f0f0;
+  padding: 1.5rem;
+  margin: 1.5rem auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  max-width: 800px;
+  text-align: left;
+}
+
+.project-card h3 {
+  color: #006494;
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.75rem;
+}
+
+.project-card a {
+  color: #0077b6;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.project-card a:hover {
+  color: #00b4d8;
+}
+
+.contact {
+  background-color: #f1faff;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: none;
+}
+
+.contact-form button {
+  background-color: #0096c7;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.contact-info {
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+.contact-info a {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-in-1 { animation-delay: 0.2s; }
+.fade-in-2 { animation-delay: 0.4s; }
+.fade-in-3 { animation-delay: 0.6s; }
+
+/* Floating + Fading Background Image */
+.animated-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100vh;
+  z-index: -1;
+  opacity: 1;
+  background: url('A_digital_illustration_features_a_wavy_abstract_ba.png') repeat-x;
+  background-size: cover;
+  animation: background-move 8s linear infinite; /* ⬅️ faster animation */
+}
+
+@keyframes background-move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.navbar {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  position: relative;
+  z-index: 5;
+  padding: 4rem 2rem;
+  text-align: center;
+  background: transparent; /* No background so image shows */
+}
+
+.hero .container {
+  position: relative;
+  z-index: 6;
+  color: #111;
+}
+
+
