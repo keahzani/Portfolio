@@ -8,7 +8,7 @@ Welcome to my personal portfolio website!
 
 ## 🌐 Live Preview
 You can view the live version of the website here:  
-**[ronaldzani.github.io/portfolio](https://ronaldzani.github.io/portfolio)** (replace with actual link if deployed)
+**[ronaldzani.github.io/portfolio](https://portfolio-mny1.vercel.app/)** 
 
 ---
 
@@ -78,7 +78,7 @@ GitHub: [@keahzani](https://github.com/keahzani)
 
 ## 📄 License
 This project is licensed under the MIT License.  
-Feel free to use or adapt it — just give credit!
+Feel free to use or adapt it just give credit!
 
 ---
 
