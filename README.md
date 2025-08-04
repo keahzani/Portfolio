@@ -40,9 +40,9 @@ Hi! I'm **Ronald Zani**, a passionate Business Computing student at **Jomo Kenya
    A secure web-based voting platform with authentication, encryption, and role-based access.  
    🔗 [View on GitHub](https://github.com/keahzani/Secure-E-Voting-System)
 
-2. **Zani Animation**  
-   A fun and creative animation project using pure HTML & CSS.  
-   🔗 [View on GitHub](https://github.com/keahzani/zani-animation)
+2. **Triplaunch**  
+   A dynamic travel booking web app designed to simplify trip planning and exploration.  
+   🔗 [View on GitHub](https://github.com/keahzani/Triplaunch)
 
 ### 📬 Contact
 Feel free to reach out for collaboration or feedback:
