@@ -8,7 +8,7 @@ Welcome to my personal portfolio website!
 
 ## 🌐 Live Preview
 You can view the live version of the website here:  
-**[ronaldzani.github.io/portfolio](portfolio-git-main-zanis-projects-5c8d87fa.vercel.app)** 
+**[ronaldzani.github.io/portfolio](portfolio-ten-sage-59.vercel.app)** 
 
 ---
 
