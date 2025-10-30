@@ -394,7 +394,9 @@ document.querySelectorAll('.timeline-item').forEach(item => {
   timelineObserver.observe(item);
 });
 
-// ===== PARALLAX EFFECT FOR HERO =====
+// ===== PARALLAX EFFECT FOR HERO (DISABLED TO FIX TEXT DISAPPEARING) =====
+// Commented out to prevent text from disappearing when scrolling
+/*
 const heroSection = document.querySelector('.hero-section');
 if (heroSection) {
   window.addEventListener('scroll', () => {
@@ -406,6 +408,7 @@ if (heroSection) {
     }
   });
 }
+*/
 
 // ===== INTEREST CARDS STAGGER ANIMATION =====
 const interestObserver = new IntersectionObserver((entries) => {
