@@ -1478,38 +1478,24 @@ a:hover {
 }
 
 .form-message {
-  padding: var(--space-lg);
-  border-radius: var(--radius-lg);
-  margin-top: var(--space-xl);
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  margin-top: var(--space-md);
   font-weight: 600;
   text-align: center;
   display: none;
-  animation: slideInUp 0.5s ease;
-}
-
-@keyframes slideInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 .form-message.success {
-  background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(5, 150, 105, 0.15));
+  background: rgba(16, 185, 129, 0.1);
   color: var(--success);
   border: 2px solid var(--success);
-  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
 }
 
 .form-message.error {
-  background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(220, 38, 38, 0.15));
+  background: rgba(239, 68, 68, 0.1);
   color: var(--error);
   border: 2px solid var(--error);
-  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.2);
 }
 
 /* ===== FOOTER ===== */
