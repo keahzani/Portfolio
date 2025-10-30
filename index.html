@@ -643,12 +643,11 @@
           </div>
         </div>
         <div class="contact-form-container">
-          <form action="https://formsubmit.co/ronaldzani@gmail.com" method="POST" class="contact-form">
+          <form id="contactForm" action="https://formsubmit.co/ronaldzani@gmail.com" method="POST" class="contact-form">
             <!-- FormSubmit Configuration -->
-            <input type="hidden" name="_subject" value="New Portfolio Contact Message">
+            <input type="hidden" name="_subject" value="New Portfolio Contact Message from Ronald Zani Portfolio">
             <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="https://keahzani.github.io/Portfolio#contact">
-            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_autoresponse" value="Thank you for contacting Ronald Zani! Your message has been received and I'll get back to you soon.">
             <input type="text" name="_honey" style="display:none">
             
             <div class="form-row">
@@ -675,6 +674,7 @@
             </div>
             <button type="submit" class="btn btn-primary btn-submit">
               <span class="btn-text">Send Message</span>
+              <span class="btn-loader"><i class="fas fa-spinner fa-spin"></i></span>
             </button>
           </form>
           <div id="formMessage" class="form-message"></div>
